@@ -1,0 +1,300 @@
+*{
+    /* background-color: #F15A29; */
+    font-family: Helvetica 'Franklin Gothic Medium',  sans-serif;
+    font-size: 20px;
+    
+    
+  
+}
+/* styling the cooment tag */
+ .container{
+    width: 80%;
+    margin: auto;
+    overflow:hidden;
+}
+
+
+#showcase{
+    margin-right: 10%;
+    margin-left: 10%;
+    min-height: 400px;
+    background: url("images/landing.jpg") no-repeat;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+}
+.box {
+    display: flex;
+    text-align: center;
+}
+.box>p{
+    color: #F15A29;
+}
+
+.current{
+    color: #F15A29;
+}
+.happyparty{
+    /* text-align: center; */
+   
+    /* text-align:justify; */
+    
+}
+.happy{
+    text-align: center;
+    display: flex;
+    background:rgb(185, 176, 176);
+    padding-right: 80px;
+    padding-left: 80px;
+}
+.party{
+    text-align: center;
+    display: flex;
+    background:  #F15A29;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.breakfast{
+    text-align: center;
+    padding-top: 30px;
+    font-style: italic;
+    color: white;
+    padding-right: 90px;
+    padding-left: 90px;
+    display: flex;
+    background-image: url('images/breakfast.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.lunch{
+    text-align: center;
+    padding-top: 30px;
+    font-style: italic;
+    color: white;
+    padding-right: 100px;
+    padding-left: 100px;
+    background-image: url("images/lunch.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.dinner{
+    text-align: center;
+    padding-top: 30px;
+    font-style: italic;
+    color: white;
+    padding-right: 120px;
+    padding-left: 120px;
+    background-image: url("images/dinner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.food{
+    column-count: 2;
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+ 
+.food_2{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    box-shadow: 0px 0px 3px 3px lightgray;
+    padding: 15px;
+}
+.parafood{
+    height: 430px;
+}
+.parafood h3{
+
+    border: 1px solid red;
+    border-radius: 3px;
+    color: red;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 40%;
+    text-align: center;
+    float: left;
+    text-decoration: none;
+}
+       
+.drinks{
+    column-count: 2;
+    margin-top: 40px;
+    margin-bottom: 40px;   
+}
+
+.drinks h3{
+    border: 1px solid red;
+    border-radius: 3px;
+    color: red;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 40%;
+    text-align: center;
+    float: right;
+    text-decoration: none;
+}
+.drinks_2{
+    /* margin-left: 15px; */
+    margin-right: 10px;
+    text-align: right;
+    height: 400px;
+    padding: 20px;
+    
+}
+.drinks_3{
+    display: flex;
+    padding: 15px;
+    box-shadow: 0px 0px 3px 3px lightgray; 
+}
+
+.slide{
+    background-image: url("images/foodsBg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    padding-top: 20px;
+    margin-bottom: 50px;
+    
+}
+
+#menu>tr{
+   background-color: white;
+   margin-top: 100%;
+   height:550px;
+   margin-left: 30px;
+   
+}
+
+#menu{
+    background-color: lightgray;
+   margin: 0px;
+   height: 20px;
+   width: 91%;
+   margin-left: 50px;
+   margin-right: 10px;
+   text-align: center;
+   border-collapse: collapse;
+    
+}
+
+
+#menu_1>td:first-child{
+    background-color:white; 
+    border:0px;
+    border-collapse: collapse;
+}
+
+.menuimg{
+   
+    display: flex;
+    background-color: white;
+    margin-right: 45px;
+    margin-left: 50px;
+    padding-top: 0px;
+    text-align: center;
+    padding-bottom: 0;
+
+}
+
+.customers{
+    column-count: 2;
+    margin-right: 15%;
+    margin-left: 15%;
+    padding:20px;
+    /* width: 50%;
+    margin: auto; */
+    box-shadow: 0 0 5px 5px  lightgray;
+   column-rule: 2px solid lightgray;
+   text-align: center;
+
+}
+.customers_1{
+    text-align: center;
+    height: 240px;
+    
+}
+.customer_2{
+    padding: 20px;
+    text-align: center;
+}
+ul{
+    color: red;
+}
+
+/* styling form tag */
+#form{
+    padding:10px;
+    background-image: url("images/subscribe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+#form p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+#form form{
+   
+    margin-top: 15px;
+}
+#form input[ type="email"]{
+    padding:4px;
+    height:25px;
+    width: 250px;
+}
+.button{
+    height:38px;
+    background:#F15A29;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+/* styling footer  */
+#footer{
+    background-color: #F15A29;
+    text-align: center;
+    padding-left: 450px;
+    color: white;
+    display: flex;
+    
+}
+@media(max-width:765px){
+    .container,nav li{
+        float: none;
+        text-align: center;
+        width: 100%;  
+        padding-bottom :20px; 
+    }
+    
+.customers{
+        float: none;
+        text-align: center;
+        display: block;
+        width: 100%;
+        
+    }
+    #footer{
+        text-align: center;
+        width: 100%;
+        float: none;
+    }
+#showcase{
+        position:relative;
+    }
+#form input[ type="email"]{
+    margin-bottom:5px;
+    width: 100%;
+}
+}
