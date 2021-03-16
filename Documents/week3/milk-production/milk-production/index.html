@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>milk Business || milkfarm</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="header">
+            </div>
+        </div>
+        <div id="tank">
+            <div id="dailymilk">
+                <h2>milk productions</h2>
+                 <form>
+                    SHED A : <input type="text" id="firstshed" /><br>
+                    SHED B: <input type="text" id="secondshed" /><br>
+                    SHED C : <input type="text" id="thirdshed" /><br>
+                    SHED D: <input type="text" id="forthshed" /><br>
+                    <input type="button" onClick="milkfunction()" Value="Print Report" />
+                    <input class="button" type="button" value="Reset" onclick="reset()">
+                 </form>
+                    <div id="hidden">
+                        <h3>Summary Report for production today</h3>
+                        <p>Your production in Shed A is <span id = "shed1"></span> litres per day</p>
+                        <p>Your production in Shed B is <span id = "shed2"></span> litres per day</p>
+                        <p>Your production in Shed C is <span id = "shed3"></span> litres per day</p>
+                        <p>Your production in Shed D is <span id = "shed4"></span> litres per day</p>
+                        <p>The total production is <span id="totalmilk"></span> litres per day</p>
+                    </div>
+            </div>
+            <div id="outcome">
+                <form>
+                    TODAY'S TOTAL PRODUCTION : <input type="text" id="milk" /><br>
+                    <input type="button" onClick="outcome()" Value="Generate Report" />
+                    <input class="button" type="button" value="Reset" onclick="reset()">
+                 </form>
+                    <h3>Report on expected income outcome</h3>
+                    <p>Your weekly income will be Ksh <span id = "weekly"></span> </p>
+                    <p>Your monthly income will be Ksh <span id = "monthly"></span></p>
+                    <p>Your yearly income will be Ksh <span id = "yearly"></span></p>
+            </div>
+            <div id="yearrevenue">
+                <form>
+                    TODAY'S TOTAL PRODUCTION : <input type="text" id="total" /><br>
+                    <input type="button" onClick="revenue()" Value="Generate Report" />
+                    <input class="button" type="button" value="Reset" onclick="reset()">
+                 </form>
+            </div>
+        </div>
+        <script src="javascript.js"></script>
+    </body>
+</html
