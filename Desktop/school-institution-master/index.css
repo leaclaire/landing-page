@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+    font-size: larger;
+    font-style: italic;
+    color: blanchedalmond;
+}
+img{
+width: 600px;
+height: 500px;
+justify-content: right;
+}
+body{
+    background-color: green;
+}
+.info{
+    color: blanchedalmond;
+    font-size: larger;
+    font-weight: 100px;
+}
+.nav ul{
+    padding: 0;
+    list-style: none;
+    display: inline;
+    text-align: none;
+}
+ul li{
+    display: inline;
+    text-align: center;
+    margin-left: 20px;
+    padding: 20px;
+    height: 60px;
+}
+#students{
+    list-style: none;
+    text-align: left;
+    display: inline;
+}
+nav{
+    text-align: center;
+    height: 0px;
+}
+ul{
+    display: inline-block;
+}
