@@ -51,4 +51,9 @@ h6{
 body{
     background-color: peru;
 }
+.hobbies{
+   width: 60%; 
+   float: right;
+   background-color: darkred;
+}
  
