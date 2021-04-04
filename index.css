@@ -9,7 +9,7 @@ h1{
    border: 2px green;
    padding: 6px;
    margin: 20px;
-   background-color: ;
+   background-color: #2F4F4F;
 }
 img{
     display: block;
@@ -61,5 +61,8 @@ body{
    width: 60%; 
    float: right;
    background-color: gray;
+}
+strong{
+    color: pink;
 }
  
