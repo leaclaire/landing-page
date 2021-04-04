@@ -9,7 +9,7 @@ h1{
    border: 2px green;
    padding: 6px;
    margin: 20px;
-   background-color: slategray;
+   background-color: green;
 }
 img{
     display: block;
@@ -55,7 +55,7 @@ h6{
     margin: 0px;
 }
 body{
-    background-color: greenyellow;
+    background-color: peru;
 }
 .hobbies{
    width: 60%; 
