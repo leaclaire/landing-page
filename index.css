@@ -51,9 +51,11 @@ h6{
     background-color: blueviolet;
     text-align: center;
     font-style: italic;
+    padding: 0px;
+    margin: 0px;
 }
 body{
-    background-color: peru;
+    background-color: greenyellow;
 }
 .hobbies{
    width: 60%; 
