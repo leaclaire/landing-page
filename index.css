@@ -29,6 +29,8 @@ ol{
 }
 h4{
     font-size: 50px;
+    padding: 0px;
+    margin: 0;
     color: blanchedalmond;
     background-color: blueviolet;
     text-align: center;
