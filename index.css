@@ -6,7 +6,7 @@ h1{
     font-style: italic;
 }
 .box{
-   border: 2px red;
+   border: 2px green;
    padding: 6px;
    margin: 20px;
    background-color: slategray;
