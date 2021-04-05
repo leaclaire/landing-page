@@ -19,4 +19,5 @@ To access this project on your local files, you can clone it using these steps
 1. Git
 ### Live Site
 View [live](https://leaclaire.github.io/landing-page/)
-### Licence
+### Licence 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](/LICENSE)
